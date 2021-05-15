@@ -20,7 +20,7 @@ body {
 
 #card {
   background: hsl(244, 38%, 16%); 
-  height: 500px;
+  max-height: 500px;
   max-width: 1100px;
 
   display: flex;
@@ -42,6 +42,13 @@ body {
   border-top-right-radius: 12px;
   border-bottom-right-radius: 12px;
 }
+/* 
+#image-header::after {
+  content: "";
+  position: relative;
+  padding: 50px;
+  background: green;
+} */
 
 #card-main {
   width: 52%;
@@ -63,16 +70,29 @@ body {
 }
 
 #header-title {
-  font-size: 18px;
+  max-width: 450px;
+
+  font-size: 17px;
   font-weight: 700;
   margin-bottom: 30px;
   border: 1px solid yellow;
 }
 
 #header-subtitle {
+  border: 1px solid green;
   font-size: 15px;
   letter-spacing: 1px;
-  
+  line-height: 18px;
+
+  margin-bottom: 75px;
+}
+
+#header-stats {
+  border: 1px solid red;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 30px;
 }
 
 
