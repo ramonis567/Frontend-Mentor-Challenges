@@ -27,11 +27,8 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-}
 
-#stats {
-  width: 52%;
-  height: 100%;
+  border-radius: 12px;
 }
 
 #image-header {
@@ -42,5 +39,41 @@ body {
 #image-header img {
   width: 100%;
   height: 100%;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
 }
+
+#card-main {
+  width: 52%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  padding: 5rem 4rem;
+}
+
+.text-primary {
+  font-family: 'Inter', sans-serif;
+}
+
+.text-secondary {
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+#header-title {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  border: 1px solid yellow;
+}
+
+#header-subtitle {
+  font-size: 15px;
+  letter-spacing: 1px;
+  
+}
+
+
 
