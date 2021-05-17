@@ -30,13 +30,6 @@
     border-bottom-right-radius: 0;
   }
 
-  /* #header-image:before {
-    content: none;
-
-    border-bottom-right-radius: 0;
-    border-top-left-radius: 12px;
-  } */
-
   #card-main {
     align-items: center;
     justify-content: center;
