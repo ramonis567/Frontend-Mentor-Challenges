@@ -29,11 +29,14 @@ body {
   align-items: center;
 
   border-radius: 12px;
+
+  margin: 0 20px;
 }
 
 #image-header {
   width: 48%;
-  height: 100%;
+  height: 100%; 
+  position: relative;
 }
 
 #image-header img {
@@ -42,13 +45,22 @@ body {
   border-top-right-radius: 12px;
   border-bottom-right-radius: 12px;
 }
-/* 
-#image-header::after {
+
+#image-header::before {
   content: "";
-  position: relative;
-  padding: 50px;
-  background: green;
-} */
+  position: absolute;
+  
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  background: #6c16a1;
+  opacity: 55%;
+
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
 
 #card-main {
   width: 52%;
@@ -70,12 +82,11 @@ body {
 }
 
 #header-title {
-  max-width: 400px;
+  max-width: 420px;
 
   font-size: 17px;
   font-weight: 700;
   margin-bottom: 30px;
-  border: 1px solid yellow;
 
   display: inline;
 }
@@ -85,8 +96,7 @@ body {
 }
 
 #header-subtitle {
-  max-width: 400px;
-  border: 1px solid green;
+  max-width: 420px;
   font-size: 16px;
   line-height: 22px;
 
@@ -96,10 +106,43 @@ body {
 }
 
 #header-stats {
-  max-width: 400px;
-  border: 1px solid red;
+  max-width: 420px;
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 30px;
+}
+
+.stats-item-p1 {
+  font-size: 23px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.stats-item-p2 {
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffffaf;
+
+  margin-top: 7px;
+}
+
+#attribution {
+  position: absolute;
+  bottom: 40px;
+  margin: 0 auto;
+
+  font-size: 13px;
+  color: #ffffffaf;
+}
+
+#attribution a:link {
+  text-decoration: none;
+}
+
+#attribution a:hover {
+  text-decoration: none;
+  color: #AA5CDB;
 }
