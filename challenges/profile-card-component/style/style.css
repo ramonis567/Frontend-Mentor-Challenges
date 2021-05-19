@@ -20,6 +20,8 @@ body {
       -ms-flex-align: center;
           align-items: center;
   font-size: 18px;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 body #card-container {
@@ -158,5 +160,21 @@ body #attribution {
   bottom: -30px;
   margin: 0 auto;
   text-align: center;
+  font-size: 14px;
+  color: white;
+}
+
+body #bg-pattern-top {
+  position: absolute;
+  top: -80%;
+  left: -30%;
+  z-index: -1;
+}
+
+body #bg-pattern-bottom {
+  position: absolute;
+  bottom: -100%;
+  right: -18%;
+  z-index: -1;
 }
 /*# sourceMappingURL=style.css.map */

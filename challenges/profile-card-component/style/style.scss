@@ -18,6 +18,9 @@ body {
 
   font-size: 18px;
 
+  overflow-y: hidden;
+  overflow-x: hidden;
+
   #card-container {
     max-width: 350px;
     margin: 0 auto;
@@ -133,6 +136,24 @@ body {
     bottom: -30px;
 
     margin: 0 auto;
+
     text-align: center;
+    font-size: 14px;
+    color: white;
+  }
+
+  #bg-pattern-top {
+    position: absolute;
+    top: -80%;
+    left: -30%;
+    z-index: -1;
+  }
+
+  #bg-pattern-bottom {
+    position: absolute;
+    bottom: -100%;
+    right: -18%;
+    z-index: -1;
   }
 }
+
