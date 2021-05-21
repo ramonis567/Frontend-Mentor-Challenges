@@ -116,3 +116,45 @@ body {
     }
   }
 }
+
+@media screen and (max-width: 800px) {
+  body {
+    width: 90%;
+    margin: 0 auto;
+
+    header {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    main {
+      width: 100%;
+      flex-direction: column;
+
+      #mockups {
+        width: 100%;
+         
+        img {
+          width: 100%;
+        }
+      }
+
+      #content {
+        width: 100%;
+        text-align: center;
+      }
+    }
+
+    footer {
+      margin: 40px 0;
+      text-align: center;
+      flex-direction: column-reverse;
+
+      p {
+        margin-top: 20px;
+      }
+    }
+  }
+}
