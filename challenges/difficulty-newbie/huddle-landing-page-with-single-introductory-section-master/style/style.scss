@@ -1,0 +1,40 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background-image: url("../images/bg-desktop.svg");
+  background-color: hsl(257, 40%, 49%);
+  background-repeat: no-repeat;
+
+  width: 85%;
+  height: 100%;
+  margin: 0 auto;
+
+  header {
+    margin: 40px 0;
+
+    img {
+      max-height: 75px;
+    }
+  }
+
+  main {
+    display: flex;
+
+    h1 {
+      font-family: 'Poppins', sans-serif;
+    }
+
+    p {
+      font-family: 'Poppins', sans-serif;
+    }
+
+  }
+}

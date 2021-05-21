@@ -1,0 +1,41 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background-image: url("../images/bg-desktop.svg");
+  background-color: #674baf;
+  background-repeat: no-repeat;
+  width: 85%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+body header {
+  margin: 40px 0;
+}
+
+body header img {
+  max-height: 75px;
+}
+
+body main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body main h1 {
+  font-family: 'Poppins', sans-serif;
+}
+
+body main p {
+  font-family: 'Poppins', sans-serif;
+}
+/*# sourceMappingURL=style.css.map */
