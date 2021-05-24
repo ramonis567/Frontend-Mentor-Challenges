@@ -1,5 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 body {
-  background-color: burlywood;
+  width: 90%;
+  margin: 0 auto;
+  background-color: #1c2431;
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body #testimonials .card-testimonials {
+  background-color: #202a3c;
+}
+
+body footer {
+  background-color: #0b1523;
 }
 
 svg {

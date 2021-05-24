@@ -1,9 +1,30 @@
 * {
-
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
 }
 
 body {
-  background-color: burlywood;
+  width: 90%;
+
+  margin: 0 auto;
+
+  background-color: hsl(217, 28%, 15%);
+
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+
+  #testimonials {
+    .card-testimonials {
+      background-color: hsl(219, 30%, 18%);
+    }
+  }
+
+  footer {
+    background-color: hsl(216, 53%, 9%);
+  }
 }
 
 svg {
