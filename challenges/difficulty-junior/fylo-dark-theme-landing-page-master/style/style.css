@@ -67,6 +67,9 @@ body main p {
 body main a {
   text-decoration: none;
   color: white;
+  background: -webkit-gradient(linear, right top, left top, color-stop(10%, #339ecc), color-stop(90%, #65e2d9));
+  background: linear-gradient(270deg, #339ecc 10%, #65e2d9 90%);
+  padding: 10px 5px;
 }
 
 body #testimonials .card-testimonials {
