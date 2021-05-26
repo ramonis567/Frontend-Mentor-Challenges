@@ -3,11 +3,12 @@
   padding: 0;
   border: 0;
   box-sizing: border-box;
+
+  color: white;
 }
 
 body {
   width: 90%;
-
   margin: 0 auto;
 
   background-color: hsl(217, 28%, 15%);
@@ -17,6 +18,7 @@ body {
   font-family: 'Open Sans', sans-serif;
 
   header {
+    width: 100%;
     padding: 40px 0;
 
     display: flex;
@@ -32,8 +34,9 @@ body {
     #menu {
       a {
         text-decoration: none;
-        color: white;
+        color: #ffffffbb;
         font-family: 'Raleway', sans-serif;
+        font-size: 1rem;
 
         margin-left: 3rem;
       }
@@ -43,6 +46,13 @@ body {
   main {
     margin: 0 auto;
     max-width: 60%;
+
+    margin-bottom: 6rem;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
     #mockup-image {
       img {
@@ -71,10 +81,47 @@ body {
     a {
       text-decoration: none;
       color: white;
+      font-weight: 700;
+      font-size: 1rem;
+      text-shadow: 1px 2px 7px #151515;
 
-      background: linear-gradient(270deg, hsl(198, 60%, 50%) 10%, hsl(176, 68%, 64%) 90%);
-      padding: 10px 5px;
+      background: linear-gradient(270deg, hsl(198, 60%, 50%) 20%, hsl(176, 68%, 64%) 90%);
+      margin-top: 1.5rem;
+      padding: 18px 80px;
+
+      border-radius: 3rem;
     }
+  }
+
+  #grid-cards {
+    width: 80%;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(2, minmax(250px, 1fr));
+
+    row-gap: 2rem;
+
+    justify-items: center;
+    align-content: center;
+
+    border: 1px solid red;
+
+    .card-features {
+      border: 1px solid yellow;
+
+      max-width: 75%;
+      
+    }
+  }
+
+  #works-section {
+    margin-top: 5rem;
+
+    // Parei aqui
+
+    display: flex;
+    align-items: center;
   }
 
   #testimonials {
