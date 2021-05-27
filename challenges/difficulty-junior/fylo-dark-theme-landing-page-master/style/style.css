@@ -198,8 +198,19 @@ body #testimonials .card-testimonials {
   text-align: start;
 }
 
+body #testimonials .card-testimonials .profile {
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 body #testimonials .card-testimonials .profile img {
-  max-width: 2rem;
+  max-width: 2.1rem;
+  max-height: 2.1rem;
   border-radius: 50%;
 }
 

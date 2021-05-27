@@ -192,8 +192,13 @@ body {
       }
 
       .profile {
+        margin-top: 15px;
+        display: flex;
+        align-items: center;
+
         img {
-          max-width: 2rem;
+          max-width: 2.1rem;
+          max-height: 2.1rem;
           border-radius: 50%;
         }
       }
