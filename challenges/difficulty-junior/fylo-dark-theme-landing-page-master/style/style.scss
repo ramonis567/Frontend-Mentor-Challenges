@@ -144,7 +144,8 @@ body {
       font-size: 1rem;
 
       h1 {
-        max-width: 55%;
+        border: 1px solid black;
+        max-width: 60%;
         font-size: 2rem;
         font-family: 'Raleway', sans-serif;
 
@@ -182,6 +183,20 @@ body {
 
     .card-testimonials {
       background-color: hsl(219, 30%, 18%);
+      padding: 1.5rem 1rem;
+
+      text-align: start;
+
+      .testimonial {
+
+      }
+
+      .profile {
+        img {
+          max-width: 2rem;
+          border-radius: 50%;
+        }
+      }
     }
   }
 

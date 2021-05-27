@@ -153,7 +153,8 @@ body #works-section #section-content {
 }
 
 body #works-section #section-content h1 {
-  max-width: 55%;
+  border: 1px solid black;
+  max-width: 60%;
   font-size: 2rem;
   font-family: 'Raleway', sans-serif;
   margin-bottom: 1.5rem;
@@ -193,6 +194,13 @@ body #testimonials {
 
 body #testimonials .card-testimonials {
   background-color: #202a3c;
+  padding: 1.5rem 1rem;
+  text-align: start;
+}
+
+body #testimonials .card-testimonials .profile img {
+  max-width: 2rem;
+  border-radius: 50%;
 }
 
 body footer {
