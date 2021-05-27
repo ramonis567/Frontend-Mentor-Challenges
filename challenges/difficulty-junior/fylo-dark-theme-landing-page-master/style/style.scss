@@ -173,6 +173,13 @@ body {
   }
 
   #testimonials {
+    width: 90%;
+    margin: 3rem auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;
+
     .card-testimonials {
       background-color: hsl(219, 30%, 18%);
     }

@@ -180,6 +180,17 @@ body #works-section #section-content a img {
   margin: 2px 0 0 4px;
 }
 
+body #testimonials {
+  width: 90%;
+  margin: 3rem auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -webkit-column-gap: 2rem;
+          column-gap: 2rem;
+}
+
 body #testimonials .card-testimonials {
   background-color: #202a3c;
 }
