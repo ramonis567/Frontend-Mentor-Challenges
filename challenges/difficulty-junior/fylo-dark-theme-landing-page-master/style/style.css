@@ -217,6 +217,16 @@ body #page #testimonials .card-testimonials .profile img {
   margin-right: 1rem;
 }
 
+body #page #get-started {
+  margin: 0 auto;
+  background-color: #181f2a;
+  max-width: 50%;
+}
+
+body #page #get-started h1 {
+  font-size: 1.5rem;
+}
+
 body footer {
   background-color: #0b1523;
   width: 100%;

@@ -207,7 +207,13 @@ body {
     }
   
     #get-started {
-      
+      margin: 0 auto;
+      background-color: hsl(218, 28%, 13%);
+      max-width: 50%;
+
+      h1 {
+        font-size: 1.5rem;
+      }
     }
   }
 
