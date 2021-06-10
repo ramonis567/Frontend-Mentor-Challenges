@@ -220,7 +220,7 @@ body {
       &::before {
         content: "";
         position: absolute;
-        z-index: 999;
+        // z-index: -1;
 
         background-image: url(../images/bg-quotes.png);
         background-repeat: no-repeat;

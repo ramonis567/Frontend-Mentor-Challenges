@@ -235,7 +235,6 @@ body #page #testimonials .card-testimonials .profile .role {
 body #page #testimonials::before {
   content: "";
   position: absolute;
-  z-index: 999;
   background-image: url(../images/bg-quotes.png);
   background-repeat: no-repeat;
   padding: 30px;
