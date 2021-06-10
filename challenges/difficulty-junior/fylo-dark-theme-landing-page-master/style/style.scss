@@ -179,6 +179,8 @@ body {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
       column-gap: 2rem;
+
+      border: 1px solid red;
   
       .card-testimonials {
         background-color: hsl(219, 30%, 18%);
@@ -214,8 +216,20 @@ body {
           }
         }
       }
+
+      &::before {
+        content: "";
+        position: absolute;
+        z-index: 999;
+
+        background-image: url(../images/bg-quotes.png);
+        background-repeat: no-repeat;
+
+        padding: 30px;
+        border: 1px solid burlywood;
+      }
     }
-  
+
     #get-started {
       margin: 0 auto;
       background-color: hsl(218, 28%, 13%);

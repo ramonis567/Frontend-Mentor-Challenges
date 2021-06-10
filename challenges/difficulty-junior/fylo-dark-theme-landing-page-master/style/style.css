@@ -192,6 +192,7 @@ body #page #testimonials {
       grid-template-columns: 1fr 1fr 1fr;
   -webkit-column-gap: 2rem;
           column-gap: 2rem;
+  border: 1px solid red;
 }
 
 body #page #testimonials .card-testimonials {
@@ -229,6 +230,16 @@ body #page #testimonials .card-testimonials .profile .name {
 
 body #page #testimonials .card-testimonials .profile .role {
   font-size: 0.6rem;
+}
+
+body #page #testimonials::before {
+  content: "";
+  position: absolute;
+  z-index: 999;
+  background-image: url(../images/bg-quotes.png);
+  background-repeat: no-repeat;
+  padding: 30px;
+  border: 1px solid burlywood;
 }
 
 body #page #get-started {
