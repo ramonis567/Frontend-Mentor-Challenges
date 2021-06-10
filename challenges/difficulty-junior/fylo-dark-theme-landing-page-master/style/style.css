@@ -196,8 +196,13 @@ body #page #testimonials {
 
 body #page #testimonials .card-testimonials {
   background-color: #202a3c;
-  padding: 1.5rem;
+  padding: 2rem 1.5rem;
   text-align: start;
+}
+
+body #page #testimonials .card-testimonials .testimonial {
+  font-size: 0.9rem;
+  letter-spacing: 1px;
 }
 
 body #page #testimonials .card-testimonials .profile {
@@ -214,7 +219,16 @@ body #page #testimonials .card-testimonials .profile img {
   max-width: 2.1rem;
   max-height: 2.1rem;
   border-radius: 50%;
-  margin-right: 1rem;
+  margin-right: 0.7rem;
+}
+
+body #page #testimonials .card-testimonials .profile .name {
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+body #page #testimonials .card-testimonials .profile .role {
+  font-size: 0.6rem;
 }
 
 body #page #get-started {
